@@ -1,0 +1,7 @@
+# NLP methods by era
+
+- **1990s (rule-based / count models)**: hand-written grammars, n-grams with Good-Turing/Kneser-Ney smoothing, POS taggers via HMMs; evaluation with perplexity on n-gram LMs and task-specific accuracy (tagging, parsing). Limited context (1–3 tokens), brittle to domain shift.
+- **2000s (discriminative + shallow syntax)**: maximum entropy/CRF sequence models for tagging/chunking, logistic regression/SVMs with sparse features; BLEU introduced for MT; still data-hungry feature engineering; context window modest but better structure awareness.
+- **2010s (neural sequence models)**: feed-forward/FFNN, then RNN/LSTM/GRU; attention (2014) and encoder-decoder; seq2seq with attention dominates MT; word2vec/GloVe embeddings; evaluation with BLEU/ROUGE and perplexity; context length limited by RNN state; training stability improved with gating.
+- **2019 (Transformers at scale)**: BERT for bidirectional pretraining (masked LM), GPT-2 for autoregressive generation; fine-tuning on downstream tasks replaces heavy feature engineering; metrics broaden to GLUE/SQuAD; context limited to 1–2k tokens but quality leaps from self-attention.
+- **Present (LLMs)**: decoder-only LMs with RLHF/DPO, instruction tuning, retrieval-augmented generation, tool-use; context windows 8k–200k; metrics include perplexity, task-specific scores, toxicity/refusal/safety evals, latency/cost; deployment involves quantization, distillation, and serving stacks (vLLM, TGI) plus monitoring.

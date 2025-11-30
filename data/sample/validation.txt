@@ -1,0 +1,2 @@
+Language models learn patterns between words and phrases, predicting what comes next.
+Evaluation data keeps the training honest by measuring how well the model generalizes.

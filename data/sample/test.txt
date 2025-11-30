@@ -1,0 +1,3 @@
+Tiny language models can respond quickly, making them great for rapid prototyping.
+Validation catches overfitting early, while test sets estimate generalization to unseen text.
+Performance metrics like perplexity and ROUGE tell us whether training actually improved quality.

@@ -1,0 +1,5 @@
+Once upon a time, a curious engineer built a tiny language model to learn how machines write.
+The model was patient, training on countless lines until it could finish a sentence with confidence.
+Small models are like sketches; they are fast to try and easy to debug before painting the full picture.
+Building an LLM involves tokenizing text, batching it efficiently, and optimizing the parameters step by step.
+With every epoch, the model grows a little wiser, shaping its predictions from feedback and loss curves.
